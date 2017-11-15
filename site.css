@@ -9,6 +9,10 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 h2 {
 	font-size: 30px;
 }
@@ -59,6 +63,7 @@ main div {
 
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 main a {
