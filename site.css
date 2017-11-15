@@ -78,6 +78,25 @@ em {
     font-style: italic;
 }
 
-.icone-rede-social {
+.icone-rede-social li {
 	display: inline-block;
+}
+
+.icone-rede-social a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
 }
