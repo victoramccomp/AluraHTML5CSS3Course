@@ -9,12 +9,18 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+main {
+	float: left;
+	width: 85%;
+}
+
 h1 {
 	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 main h1 {
@@ -83,6 +89,12 @@ em {
     font-style: italic;
 }
 
+cite {
+    font-style: italic;
+    float: right;
+    display: block;
+}
+
 .icone-rede-social li {
 	display: inline-block;
 }
@@ -104,4 +116,20 @@ em {
 
 .linkedin {
 	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
