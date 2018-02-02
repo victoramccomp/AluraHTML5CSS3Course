@@ -12,6 +12,7 @@ h1, h2 {
 main {
 	float: left;
 	width: 85%;
+	padding-bottom: 80px;
 }
 
 h1 {
@@ -126,10 +127,29 @@ cite {
 	float: left;
 }
 
-.minha-foto, .navegacao-site {
+.minha-foto {
 	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	position: absolute;
+	top: 0;
+    right: 0;
+}
+
+.navegacao-site {
 	width: 15%;
 	box-sizing: border-box;
 	border-left: 10px solid black;
-    border-bottom: 10px solid black;
+	border-bottom: 10px solid black;
+	position: absolute;
+	top: 0;
+    right: 0;
+}
+
+.rodape-pagina {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
